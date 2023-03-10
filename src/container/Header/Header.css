@@ -1,0 +1,38 @@
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app__header h1 {
+  letter-spacing: 0.03em;
+  padding: 2rem 0;
+}
+.app__header button {
+  margin: 2rem 0;
+}
+.app__wrapper-info {
+  width: 40%;
+  align-self: center;
+}
+.app__wrapper-img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app__wrapper-img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__header {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .app__wrapper-info {
+    width: 100%;
+  }
+  .app__wrapper-img {
+    width: 80%;
+  }
+}

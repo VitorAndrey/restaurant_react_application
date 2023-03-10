@@ -1,0 +1,25 @@
+.app__specialMenu {
+  flex-direction: column;
+}
+.app__specialMenu-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__specialMenu-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.app__specialMenu-menu_wine,
+.app__specialMenu-menu_cocktail {
+  flex-direction: column;
+  width: calc(75% / 2);
+}
+
+.app__specialMenu-menu_image {
+  width: 25%;
+}
+.app__specialMenu-menu_image img {
+  width: 100%;
+}
