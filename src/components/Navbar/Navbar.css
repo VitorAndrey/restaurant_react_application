@@ -26,7 +26,7 @@
   padding: 3px 5px;
 }
 .app__navbar-links a:hover {
-  color: var(--color-grey);
+  color: var(--color-golden);
 }
 .app__navbar-login {
   display: flex;
@@ -55,7 +55,6 @@
   right: 15px;
   display: none;
 }
-
 .app__navbar-mobile-links li {
   margin: 1rem 0;
   text-align: center;

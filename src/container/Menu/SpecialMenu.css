@@ -26,6 +26,9 @@
 .menu__heading {
   text-align: center;
 }
+.custom__button {
+  margin: 2rem 0;
+}
 
 @media screen and (max-width: 1150px) {
   .app__specialMenu-menu {

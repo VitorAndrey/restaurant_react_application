@@ -1,0 +1,32 @@
+.app__laurel-info_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-top: 4rem;
+}
+.app__laurel-info {
+  padding: 0 3rem;
+}
+.app__laurel {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+.app__laurel-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app__laurel-image img {
+  width: 70%;
+}
+.app__laurel-info {
+  width: 50%;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__laurel {
+    max-width: 1800px;
+  }
+}
