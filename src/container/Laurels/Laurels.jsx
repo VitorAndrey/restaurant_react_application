@@ -6,7 +6,7 @@ import { images } from "../../constants";
 import "./Laurels.css";
 
 const Laurels = () => (
-  <div className="app__laurel section__padding app__bg">
+  <div className="app__laurel section__padding" id="awards">
     <div className="app__laurel-info">
       <SubHeading title="Awards & recognition" />
       <h1 className="headtext__cormorant">Our Laurels</h1>

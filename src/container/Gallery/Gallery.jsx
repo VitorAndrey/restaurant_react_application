@@ -24,7 +24,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="app__gallery max-width section__padding">
+    <div className="app__gallery  section__padding app__bg">
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>

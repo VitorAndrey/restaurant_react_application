@@ -1,0 +1,40 @@
+.app__newsletter {
+  background: #0c0c0c;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.app__newsletter p {
+  margin: 1rem 0;
+}
+.newsletter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.newsletter-container input {
+  background: none;
+  border: 1px solid var(--color-grey);
+
+  padding: 1rem 1.5rem;
+  width: 100%;
+  margin-right: 2rem;
+  caret-color: var(--color-grey);
+  color: var(--color-white);
+  font-family: var(--font-alt);
+}
+
+@media screen and (max-width: 650px) {
+  .newsletter-container {
+    flex-direction: column;
+  }
+  .newsletter-container input {
+    margin-right: 0;
+    padding: 0.5rem 1.5rem;
+  }
+}
