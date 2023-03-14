@@ -2,7 +2,14 @@
   width: 95%;
   margin: 0 auto;
 }
-
+.unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently*/
+}
 .section__padding {
   padding: 8rem 8rem;
 }
@@ -64,15 +71,22 @@
   cursor: pointer;
 }
 
-.p__cormorant {
+.p__cormorant,
+.p__cormorant-yellow {
   font-family: var(--font-base);
-  color: var(--color-white);
+
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
   font-feature-settings: "tnum" on, "lnum" on;
   line-height: 29.9px;
   font-size: 23px;
+}
+.p__cormorant {
+  color: var(--color-white);
+}
+.p__cormorant-yellow {
+  color: var(--color-golden);
 }
 
 .p__opensans {
