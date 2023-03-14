@@ -35,7 +35,7 @@ const Navbar = () => {
         <a href="#login" className="p__opensans">
           Log In / Register
         </a>
-        <div className=".app__navbar-login-dash" />
+        <div className="app__navbar-login-dash" />
         <a href="#book" className="p__opensans">
           Book Table
         </a>
