@@ -6,7 +6,7 @@ import { SubHeading } from "../../components";
 import { images } from "../../constants";
 
 const FindUs = () => (
-  <div className="app__findus max-width">
+  <div className="app__findus max-width ">
     <div className="app__findus-info">
       <SubHeading title="Contact" />
       <h1 className="headtext__cormorant ">Find Us</h1>

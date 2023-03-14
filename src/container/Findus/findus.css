@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 3rem;
+  padding: 6rem 3rem;
 }
 .app__findus-image {
   width: 40%;
